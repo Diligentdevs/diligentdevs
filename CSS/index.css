@@ -1,0 +1,168 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.logo {
+  background-image: url(../images/logo.png);
+  width: 50px;
+  height: 50px;
+  margin-top: -12px;
+  margin-right: 5px;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: green;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: lightgreen;
+}
+.headDev {
+  padding-left: 2px;
+  color: green;
+  opacity: 70%;
+  font-size: 25px;
+}
+.headDil {
+  font-size: 35px;
+  font-weight: 500;
+  color: green;
+}
+.banner {
+  background-image: url("../images/banner-image.png");
+  width: 100%;
+  min-height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-text {
+  padding: 100px 20px 40px 50px;
+  color: white;
+  font-size: 50px;
+}
+.banner-btn {
+  font-size: 20px;
+  padding: 0px 20px 50px 50px;
+}
+.banner-inner-btn {
+  width: 150px;
+  color: aliceblue;
+  height: 50px;
+  background-color: rgb(11, 27, 4);
+  border: none;
+  opacity: 80%;
+}
+.banner-inner {
+  margin-left: 175px;
+}
+.heading-quality {
+  font-size: 40px;
+  font-weight: bold;
+  padding: 50px 0px 40px 0px;
+}
+.highlight {
+  padding-bottom: 15px;
+  border-bottom: 3px solid #166d3b;
+}
+
+.fa-4x {
+  color: #166d3b;
+  padding-top: 20px;
+}
+.card-deck {
+  padding-top: 40px;
+}
+.card-change {
+  border: 2px solid rgb(212, 253, 227);
+  background-color: rgb(249, 252, 250);
+  border-radius: 20px;
+}
+.card-change:hover {
+  border: 2px solid #71b68f;
+  transform: scaleY(1.01);
+  transition: transform 0.2s ease-in-out;
+}
+.card-text {
+  padding: 5px 0px 5px 0px;
+  text-align: center;
+}
+.card-title {
+  padding: 15px 0px 0px 0px;
+  color: #166d3b;
+}
+.team {
+  background-image: url(../images/about-background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 700px;
+  width: 100%;
+  margin: auto;
+}
+.card-team {
+  padding-top: 20px;
+  width: 100%;
+  margin: auto;
+}
+.card-img-top {
+  border-radius: 30%;
+}
+.card-img-top:hover {
+  box-shadow: 5px 1px 8px #0d3d22;
+  transition: box-shadow 0.3s ease-in-out;
+}
+.about-name {
+  color: #0d3d22;
+  font-size: 25px;
+  background: transparent;
+  width: 100%;
+  border-radius: 20%;
+  text-align: center;
+}
+.about-desig {
+  color: #0d3d22;
+  font-size: 20px;
+  background: transparent;
+  width: 80%;
+  border-radius: 20%;
+  text-align: center;
+  padding-top: -25px;
+}
+.team .card {
+  background: transparent;
+  border: none;
+}
+.work {
+  margin-top: 50px;
+  border-top-left-radius: 50%;
+}
+.work-text {
+  font-size: 40px;
+  padding-top: 60px;
+  text-align: center;
+}
+.btn-success {
+  width: 30%;
+  margin: auto;
+  margin-top: 40px;
+}
+.fab {
+  color: #166d3b;
+  font-size: 30px;
+  padding: 0px 10px 20px 10px;
+}
+.sm-logos {
+  text-align: center;
+  margin-top: 45px;
+}
+.footer {
+  background-color: rgb(255, 253, 228);
+  margin-top: 50px;
+}
+.footer-logo {
+  padding-top: 30px;
+}
+.text-copyright {
+  font-size: 10px;
+  margin-top: 55px;
+  text-align: right;
+}
